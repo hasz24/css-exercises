@@ -15,11 +15,24 @@ body {
   justify-content: center;
 }
 
+.icon-section {
+                padding: 10px; 
+}
+
+.text-section {
+               
+}
+
+
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
 }
 
 .icon {
@@ -35,6 +48,21 @@ body {
   justify-content: center;
 }
 
+.box-title {
+              display: flex;
+              padding-top: 10px;
+              
+             
+}
+
+.header {
+          display: flex;
+          flex: 1;
+          font-weight: bold;
+          align-items: center;         
+         
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -48,13 +76,28 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  
+}
+
+.text {
+        padding-top: 5px;
+        
+
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+
+  
 }
+
+.buttons {
+            
+          padding-top: 8px;
+          padding-bottom: 8px;  
+} 
 
 button.continue {
   background: royalblue;
