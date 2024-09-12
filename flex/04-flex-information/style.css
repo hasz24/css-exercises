@@ -1,6 +1,16 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
 }
+
+.information-section {
+                        display: flex;
+}
+
+.plant {
+         border: 2px solid red;
+}
+
 
 img {
   width: 100px;
@@ -10,6 +20,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  
+
+ 
 }
 
 /* do not edit this footer */
