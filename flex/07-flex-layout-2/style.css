@@ -10,12 +10,21 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   
   margin-top: auto;
@@ -25,7 +34,22 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+
 }
+
+.links {
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+          
+}
+
+li {
+      list-style-type: none;
+}
+
+
 
 .card {
   border: 1px solid #eee;
@@ -37,15 +61,19 @@ body {
 }
 
 .main-content {
+                border: 2px solid red;
                 display: flex;
                 
-                height: 830px;
+                height: 830px; 
+
+             
                 
 }
 
 .rows {
     
         display: flex;
+        
         
         gap: 30px;
         width: 100%;
@@ -63,4 +91,4 @@ body {
             align-items: center;
            
            
-}
+} 
